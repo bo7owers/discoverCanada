@@ -1,3 +1,9 @@
-
-@import "../scss/_vars";
+// @import "../scss/_vars";
+@import "./General";
 @import "../../common/scss/utils/_utils";
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
