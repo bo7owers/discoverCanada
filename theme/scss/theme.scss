@@ -1,3 +1,7 @@
-
 @import "../scss/_vars";
 @import "../../common/scss/utils/_utils";
+@import "../../theme/scss/General/General";
+
+body {
+	background: green;
+}
