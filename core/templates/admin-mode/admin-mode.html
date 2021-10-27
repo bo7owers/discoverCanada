@@ -1,0 +1,43 @@
+<div id='scorm-status'>{{environment}}</div>
+<div id='debug-status' class="{{#unless debugMode}}wb-inv{{/unless}}">Debug</div>
+
+<div id="adminMode">
+    <div class="infos">
+        <span>FW: <strong>{{version}}</strong></span>
+        <br>
+        <span>WET: <strong>{{WETversion}}</strong></span>
+        <br>
+        <span>Conn Mode: <strong>{{connectionMode}}</strong></span>
+    </div>
+    <section>
+        <h2>Admin Mode</h2>
+        <button class="snap-md ico-SNAP-bug debug-btn">{{#if debugMode}}Deactivate {{else}}Activate {{/if}} Debug</button>
+        <button class="snap-md ico-fontawesome-checklist Copy-Structure">Copy Structure</button>
+    </section>
+    <section class="locks-admin">
+        <details id="details-panellocklist">
+            <summary class="wb-details">
+                <h2>Locks</h2>
+            </summary>
+            <ul></ul>
+        </details>
+    </section>
+    <section class="scorm-admin">
+        <h2>Scorm</h2>
+        <ul>
+            <li><a href="#" class="scormreset-btn disabled">Reset Scorm Values</a>
+            </li>
+            <li><a href="#" class="scorm-btn disabled">Activate Scorm Tracking</a>
+                <div id='scorm-tracker'>
+                    <dl></dl>
+                </div>
+            </li>
+        </ul>
+    </section>
+    <section class="aqa-tools">
+        <h2>AQA Tools</h2>
+        <ul>
+            <li><a href="#" class="headings-btn">Headings Toggle</a></li>
+        </ul>
+    </section>
+</div>
