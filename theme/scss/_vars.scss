@@ -1,33 +1,32 @@
-$purple:#9F9DBF;
-$purple-darker:#756D86;
+$purple: #9f9dbf;
+$purple-darker: #756d86;
 $purple-lighter: #cdccdb;
-$uber-pale-purple:#F1F0F4;
+$uber-pale-purple: #f1f0f4;
 
-$green: #81B6B3;
-$green-darker: #4F7C8A;
+$green: #81b6b3;
+$green-darker: #4f7c8a;
 $green-lighter: #e3f1f0;
 
-$blue: #488EAE;
-$blue-darker: #3A526B;
-$uber-dark-blue:#1E2B38;
+$blue: #488eae;
+$blue-darker: #348d73;
+$uber-dark-blue: #112e25;
 
-$orange: #B26958;
+$orange: #b26958;
 
-$grey: #D6DCE2;
+$grey: #d6dce2;
 
 $correct: #9cb887;
-$incorrect: #CA8781;
+$incorrect: #ca8781;
 
 $primary-color: $blue-darker;
-$primary-color-alt:$blue;
+$primary-color-alt: $blue;
 
 //$secondary-color:
 //$secondary-color-alt:
 
-
 //---------- Global -----------//
-$error-color: #904136; 
-$warning-color: #FF851B;
+$error-color: #904136;
+$warning-color: #ff851b;
 $base-text-color: $uber-dark-blue;
 $link-color: $purple-darker;
 $link-color-visited: $purple-darker;
@@ -40,7 +39,6 @@ $button-default-border-color: #dcdee1;
 $button-default-border-color-hover: #bbbfc5;
 $box-shadow-color: #2f2f2f;
 $spinner-overlay-background-color: #fff;
-
 
 //---------- Modules ----------//
 
@@ -58,13 +56,12 @@ $favorites-icon-color: #e6ddb7;
 $favorites-icon-shadow-color: $box-shadow-color;
 $favorites-icon-color-hover: #efce4a;
 $favorites-icon-color-focus: #295376;
-$favorites-icon-fav-added-color: #efce4a; 
+$favorites-icon-fav-added-color: #efce4a;
 
 //Sitemap
 $sitemap-link-background-color: #f1f1f1;
 $sitemap-checkmark-color: #fff;
 $sitemap-checkmark-background-color: $blue-darker;
-
 
 //---------- Widgets ----------//
 
@@ -99,7 +96,6 @@ $card-border-color: #d7e059;
 $card-text-color: #d7e059;
 $card-text-color-hover: #3f4040;
 
-
 //---------- Layout ----------//
 
 //Footer
@@ -130,13 +126,13 @@ $header-button-color: $blue-darker;
 $top-nav-text-color: $blue-darker;
 $top-nav-button-color: $blue-darker;
 // TOOLBAR ICONS
-$toolbar-icon-color:$primary-color;
-$toolbar-icon-color-hover:white;
+$toolbar-icon-color: $primary-color;
+$toolbar-icon-color-hover: white;
 
-$toolbar-icon-secondary-color:$toolbar-icon-color;
-$toolbar-icon-secondary-color-hover:$toolbar-icon-color-hover;
+$toolbar-icon-secondary-color: $toolbar-icon-color;
+$toolbar-icon-secondary-color-hover: $toolbar-icon-color-hover;
 //mobile only
-$top-nav-button-color-mobile:$base-text-color;
+$top-nav-button-color-mobile: $base-text-color;
 $top-nav-button-background-color: $blue-darker;
 $hamburger-menu-color-mobile: $blue-darker;
 
@@ -154,7 +150,7 @@ $supermenu-button-background-color-hover: $purple-lighter;
 $supermenu-dropdown-button-color: $blue-darker;
 $supermenu-dropdown-border-color: $blue-darker;
 $supermenu-dropdown-button-background-color: $grey;
-$supermenu-dropdown-button-color-hover:$blue-darker;
+$supermenu-dropdown-button-color-hover: $blue-darker;
 $supermenu-dropdown-button-background-color-hover: $purple-lighter;
 //mobile only
 $supermenu-link-color: $blue-darker;
@@ -165,7 +161,6 @@ $supermenu-dropdown-icons-color-hover: $blue-darker;
 //Scrollbar
 $scrollbar-track-background-color: #222;
 $scrollbar-thumb-background-color: #d7e059;
-
 
 //---------- Micro-learning ----------//
 
@@ -184,14 +179,13 @@ $micro-menu-mobile-bullet-list-item-border-color-active: #d7e059;
 
 //---------- Iconography ----------//
 //buttons
-$btn-icon-color:$primary-color;
-$btn-icon-color-hover:$primary-color-alt;
+$btn-icon-color: $primary-color;
+$btn-icon-color-hover: $primary-color-alt;
 //default for others
-$default-icon-color:#ffffff;
-$default-icon-bg-color:$primary-color;
+$default-icon-color: #ffffff;
+$default-icon-bg-color: $primary-color;
 
-$ribbon-color:$default-icon-color; //ribbon icon color
-$ribbon-bg-color:$default-icon-bg-color; //ribbon bg color
-$iconbox-color:$default-icon-color;
-$iconbox-bg-color:$default-icon-bg-color;
-
+$ribbon-color: $default-icon-color; //ribbon icon color
+$ribbon-bg-color: $default-icon-bg-color; //ribbon bg color
+$iconbox-color: $default-icon-color;
+$iconbox-bg-color: $default-icon-bg-color;
